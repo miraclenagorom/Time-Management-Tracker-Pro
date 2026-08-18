@@ -17,7 +17,7 @@ An AI-powered task management tool that helps users log tasks, set priorities, a
 
 ## Overview
 
-Time Management Tracker Pro takes a user's raw task list and turns it into a structured, prioritized daily schedule. Instead of leaving prioritization and scheduling entirely to the user, the AI reasons over the task list to recommend what to do when — applying time-blocking principles to reduce decision fatigue and improve daily execution.
+Time Management Tracker Pro takes a user's raw task list and turns it into a structured, prioritized daily schedule. Instead of leaving prioritization and scheduling entirely to the user, the AI reasons over the task list to recommend what to do when applying time-blocking principles to reduce decision fatigue and improve daily execution.
 
 ## How it works
 
@@ -34,11 +34,11 @@ The app is built as a set of interconnected input and AI-generated widgets:
 - **Task Analysis and Recommendations** — the AI reasons over the task name, priority, estimated hours, and any notes to produce personalized time-management tips and break the task into smaller, actionable steps
 - **Suggested Daily Schedule** — the AI synthesizes all inputs into a structured daily schedule using time-blocking principles
 
-The flow is intentionally structured, not a single free-form prompt: raw task input flows into two dependent AI widgets that each reason over the same shared context to produce complementary outputs (analysis + schedule) — a small-scale example of composing multiple AI reasoning steps around a shared input state.
+The flow is intentionally structured, not a single free-form prompt: raw task input flows into two dependent AI widgets that each reason over the same shared context to produce complementary outputs (analysis + schedule) a small-scale example of composing multiple AI reasoning steps around a shared input state.
 
 ## Why I built this
 
-This project was an exercise in applying AI reasoning to a genuinely useful, everyday problem: most people don't struggle with knowing *what* they need to do, they struggle with *sequencing and prioritizing* it. I wanted to test how well an AI system could take unstructured task input and turn it into something immediately actionable — a core pattern in agentic product design.
+This project was an exercise in applying AI reasoning to a genuinely useful, everyday problem: most people don't struggle with knowing *what* they need to do, they struggle with *sequencing and prioritizing* it. I wanted to test how well an AI system could take unstructured task input and turn it into something immediately actionable, a core pattern in agentic product design.
 
 ## Tech
 
@@ -51,4 +51,3 @@ Built on **AWS PartyRock**, powered by foundation models via **Amazon Bedrock**.
 - [ ] Add adaptive re-prioritization when tasks are missed or delayed
 
 ---
-*Built by [Miracle Maduabuchi](https://www.linkedin.com/in/miracle-maduabuchi) — Agentic AI Product Leader, The Light Strategy Forge*
